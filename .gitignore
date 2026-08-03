@@ -1,0 +1,9 @@
+node_modules
+**/node_modules
+.env
+**/.env
+dist
+**/dist
+*.xlsx
+.DS_Store
+backend/uploads
