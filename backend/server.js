@@ -14,6 +14,10 @@ dns.setServers(['8.8.8.8', '8.8.4.4']);
 
 const app = express();
 
+app.get("/", (req, res) => {
+    res.send("Backend is running");
+});
+
 // Middleware to handle CORS
 app.use (
     cors({
